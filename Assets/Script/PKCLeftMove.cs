@@ -28,7 +28,6 @@ public class PKCLeftMove : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-        
            if(Score.score > Score.bestScore)
                 {
                 Score.bestScore = Score.score;

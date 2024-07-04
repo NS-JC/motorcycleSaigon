@@ -16,6 +16,7 @@ public class Money : MonoBehaviour
             ChangeWalletSprite();
             Destroy(gameObject); // 충돌 후 Money 오브젝트 파괴
         }
+        Sfx.SoundPlayMoney(); //코인 효과음
     }
 
     private void ChangeWalletSprite()
